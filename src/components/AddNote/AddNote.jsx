@@ -32,7 +32,7 @@ const AddNote = () => {
    return (
       <div>
          <div className="add-todo-wrapper">
-            <input onChange={onChangeInput} value={text} className="add-input" type="text" placeholder="Enter your task" />
+            <input onChange={onChangeInput} value={text} className="add-input" type="text" placeholder="Enter your task 22" />
             <Button onClick={addNewToDo} className="button-add-todo" variant="primary"><FontAwesomeIcon icon={faPlusSquare} /></Button>{' '}
          </div>
          <ListItems list={list} text={text} setList={setList} setText={setText} />
